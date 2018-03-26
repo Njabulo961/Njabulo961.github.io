@@ -1,0 +1,88 @@
+body, html{
+  height:100%
+  margin:0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666666;
+  }
+
+.pimg-1, .pimg-2, .pimg-3{
+  position: relative;
+  opacity: 0.95;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* fixed = parallex effect
+     scroll = normal */
+}
+.pimg-1{
+    background-image: url('One.jpeg');
+    min-height: 400px;
+  }
+
+.pimg-2{
+    background-image: url('Two.jpeg');
+    min-height: 400px;
+  }
+
+.pimg-3{
+    background-image: url('Three.jpeg');
+    min-height: 400px;
+  }
+
+
+
+  .section{
+    text-align: center;
+    padding: 50px 80px;
+    }
+
+    .section-grey{
+      background-color: #ddd;
+      color: #000;
+    }
+
+  .section-light{
+    background-color: #f4f4f4;
+    color: #666;
+  }
+
+  .section-dark{
+    background-color: #282e34;
+    color: #ddd;
+  }
+
+  .p-text{
+    position: absolute;
+    top:50%; /*brings it to the middle*/
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  .p-text .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .p-text .border.trans{
+    background-color: transparent;
+  }
+
+footer{
+  text-align: center;
+}
+
+@media(max-width: 568px){
+  .pimg-1, .pimg-2, .pimg-3{
+    background-attachment: scroll;
+  }
+
+}
