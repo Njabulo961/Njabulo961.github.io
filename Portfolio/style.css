@@ -1,0 +1,59 @@
+body{
+ margin-top: 20px;
+ font-family: 'Lobster', cursive;
+}
+
+.cont{
+  width: 100%
+  background-color: #f4f4f4;
+
+}
+.red{
+  color: #8d021f;
+}
+.red-b{
+  background-color: #8d021f;
+}
+.social-icons{
+ letter-spacing: 0.4rem;
+}
+
+#about{
+  margin-top: 30px;
+  text-align: center;
+  background: url(back.jpeg)center/cover fixed no-repeat;
+
+}
+
+.image{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100px;
+
+}
+
+p{
+  font-size: 20px;
+  color: #242424;
+  margin-right: 10px;
+
+}
+
+#portfolio{
+  text-align: center;
+  background: url(port.jpg)center/cover fixed no-repeat;
+  border-top: 2px solid  #8d021f;
+}
+
+.ht{
+ min-height: 30vh;
+}
+
+.card{
+ display: inline-block;
+}
+
+footer{
+  text-align: center;
+  margin-top: 30px;
+}
