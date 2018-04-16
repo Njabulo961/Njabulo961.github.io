@@ -1,0 +1,84 @@
+body{
+ margin-top: 20px;
+ font-family: sans-serif;
+ margin-left: 0;
+ margin-right: 0;
+}
+
+.cont{
+  width: 100%
+  background-color: #f4f4f4;
+
+}
+.red{
+  color: #8d021f;
+}
+.red-b{
+  background-color: #8d021f;
+}
+.social-icons{
+ letter-spacing: 0.4rem;
+}
+.grey{
+  color: #ccc;
+}
+
+span{
+  background-color: #ccc;
+  border-radius: 15%;
+  border: 2px solid  #8d021f;
+}
+
+#home{
+  margin-top: 30px;
+  text-align: center;
+  background: url(home.png)center/cover fixed no-repeat;
+  height: 100vh;
+  border-top: 2px solid  #8d021f;
+}
+
+#about{
+  text-align: center;
+  background: url(back.jpeg)center/cover fixed no-repeat;
+  height: 100vh;
+  border-top: 2px solid  #8d021f;
+}
+
+.center{
+  text-align: center;
+}
+
+.image{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100px;
+
+}
+
+p{
+  font-size: 20px;
+  color: #242424;
+  margin-right: 10px;
+
+}
+
+#portfolio{
+  text-align: center;
+  background: url(port.jpg)center/cover fixed no-repeat;
+  border-top: 2px solid  #8d021f;
+  border-bottom: 2px solid  #8d021f;
+  height: 100vh;
+}
+
+.ht{
+ min-height: 30vh;
+}
+
+.card{
+ display: inline-block;
+}
+
+footer{
+  text-align: center;
+  margin-top: 10px;
+}
